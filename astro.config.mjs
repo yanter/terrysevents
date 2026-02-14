@@ -14,7 +14,8 @@ export default defineConfig({
 	adapter: netlify({
 		imageCDN: false,
 	}),
-	site: "https://terrysevents.com",
+	site: "https://github.com/yanter",
+	base: '/terrysevents',
 	redirects: {
 		"/admin": "/keystatic",
 	},
